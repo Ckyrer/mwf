@@ -62,6 +62,7 @@ WatchFace({
         }
 
         const bgArray = assetArray("bg/{}.png", 23)
+        bgArray.push(...hmFS.stat_asset())
         const whiteBg = [0, 1, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 23]
         const f = assetArray("numbers/{}.png")
         const lf = assetArray("little_numbers/{}.png")
@@ -161,6 +162,7 @@ WatchFace({
             h: 90,
             text_size: 40,
             normal_color: 0x696969,
+            radius: 15,
             text: '<',
             click_func: () => { changeBG(-1) }
         })
@@ -171,6 +173,7 @@ WatchFace({
             h: 90,
             text_size: 40,
             normal_color: 0x696969,
+            radius: 15,
             text: '>',
             click_func: () => { changeBG(1) }
         })
