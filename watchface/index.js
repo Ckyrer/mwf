@@ -61,8 +61,8 @@ WatchFace({
             }
         }
 
-        const bgArray = assetArray("bg/{}.png", 24)
-        const whiteBg = [0, 1, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23]
+        const bgArray = assetArray("bg/{}.png", 25)
+        const whiteBg = [0, 1, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24]
         const f = assetArray("numbers/{}.png")
         const lf = assetArray("little_numbers/{}.png")
         const wf = assetArray("numbersW/{}.png")
