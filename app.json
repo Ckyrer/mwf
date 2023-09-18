@@ -1,16 +1,16 @@
 {
   "configVersion": "v2",
   "app": {
-    "appId": 24913,
-    "appName": "Empty",
+    "appId": 29674,
+    "appName": "mwf",
     "appType": "watchface",
     "version": {
       "code": 1,
       "name": "1.0.0"
     },
     "icon": "icon.png",
-    "vender": "zepp",
-    "description": "empty watchface"
+    "vender": "Kevedly",
+    "description": "MyWatchFace"
   },
   "permissions": [],
   "runtime": {
